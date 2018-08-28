@@ -2,7 +2,8 @@
 use etcdctl to manage (list, delete ...) openshift and kubernetes object.
 ETCD version 3:
 
-### Backup ETCD data and configuration:
+### Backup and restore ETCD:
+Make sure that you do the backup before any modifications (you better be safe first).
 
 Check [openshift official docs ](https://docs.openshift.com/container-platform/3.10/day_two_guide/host_level_tasks.html#backing-up-etcd-configuration-files-2)
 
